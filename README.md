@@ -1,1 +1,1 @@
-# chat-node-socket
+# Real-Time Chat App Backend

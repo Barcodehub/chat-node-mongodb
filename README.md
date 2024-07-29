@@ -24,7 +24,7 @@ npm install
 
 Start the server:
   ```
-   node server.js
+   npm start
   ```
 # Set up environment variables:
 - Create a `.env` file in the root directory
@@ -41,12 +41,13 @@ Start the server:
 - `MONGODB_URI`: The connection string for your MongoDB database
 
 # Follow the on-screen instructions:
+- Register some users at `http://localhost:3000/api/auth/login`
+- Open the terminal and type `node server.js`
 - Enter your user ID (username)
+- Open another terminal and repeat with a different user ID.
 - Enter the ID(username) of the user you want to send messages to
 - Type your messages and press Enter to send
 - Type "exit" to end the session
-
-# To chat, open another terminal and repeat step back with a different user ID.
 
 ## Project Structure
 - `server.js`: Main server configuration
